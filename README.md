@@ -1,6 +1,6 @@
 # limiter
 
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/qeubar/usrconfig?tab=doc)](https://pkg.go.dev/github.com/qeubar/usrconfig?tab=doc)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/qeubar/limiter?tab=doc)](https://pkg.go.dev/github.com/qeubar/limiter?tab=doc)
 [![Build Status](https://travis-ci.com/qeubar/limiter.svg?branch=master)](https://travis-ci.com/qeubar/limiter)
 
 limiter is a simple and straight forward process rate limiter.
@@ -9,7 +9,7 @@ limiter is a simple and straight forward process rate limiter.
 
 ```go
 
-import "github.com/quebar/usrconfig"
+import "github.com/quebar/limiter"
 
 func LimitedProcess() {
     rl := limiter.NewLeakyBucket(100)
